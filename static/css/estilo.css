@@ -1,10 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 html{
-    font-family: "Oxygen";
-    background: #74b0e6ad;
+  font-family: "Poppins", sans-serif;
+  background: #4095A5;
+  
 }
 .center {
-    display: block
-    margin-left auto;
-    margin-right: auto;
+  display: block
+  margin-left auto;
+  margin-right: auto;
+}
+
+.link {
+  color: #002ad1; /* Color blanco */
+  text-decoration: none; /* Eliminar subrayado por defecto */
+  font-weight: bold; /* Opcional: Poner el texto en negrita */
+}
+
+.link:hover { /* Estilo al pasar el cursor sobre el enlace */
+  color: #3835e9; /* Color azul para hover */
 }

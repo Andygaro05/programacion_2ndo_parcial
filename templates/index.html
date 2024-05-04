@@ -3,11 +3,11 @@
 {% block titulo %}Tienda virtual{% endblock %}
 
 {% block contenido %}
-  <table align="center">
+  <table align="center" style="color: white">
     {% for producto in productos %}
    <tr>
      <td>{{ producto.marca }}</td>
-     <td><a href="/producto/{{producto.id}}">{{ producto.nombre }}</a></td>
+     <td><a href="/producto/{{producto.id}}"  class="link">{{ producto.nombre }}</a></td>
      <td style="text-align:right">{{ "{:,}".format(producto.precio) }}</td>
    </tr>
    {% endfor %}
