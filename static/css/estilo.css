@@ -15,7 +15,33 @@ html{
   text-decoration: none; /* Eliminar subrayado por defecto */
   font-weight: bold; /* Opcional: Poner el texto en negrita */
 }
-
 .link:hover { /* Estilo al pasar el cursor sobre el enlace */
   color: #3835e9; /* Color azul para hover */
+}
+
+.izquierda {
+  display: flex;
+  width: 350px;
+  float: left;
+}
+
+.pizquierda{
+  left:-20;
+}
+
+.pderecho{
+  right:-20;
+}
+.boton-inicio {
+  background-color: #00b3ff; /* Azul marino */
+  color: white; /* Texto blanco */
+  padding: 10px 20px; /* Ajuste el relleno */
+  border: none; /* Eliminar borde predeterminado */
+  border-radius: 5px; /* Esquinas redondeadas */
+  cursor: pointer; /* Indicar que es un botón */
+  transition: background-color 0.3s; /* Animación de cambio de color al pasar el mouse */
+}
+
+.boton-inicio:hover {
+  background-color: #0056b3; /* Azul marino más oscuro al pasar el mouse */
 }
